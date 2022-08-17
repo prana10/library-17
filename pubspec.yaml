@@ -1,0 +1,46 @@
+name: library17
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  badges: ^2.0.3
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  equatable: ^2.0.3
+  firebase_auth: ^3.3.20
+  firebase_core: ^1.17.1
+  cloud_firestore: ^3.1.17
+  flutter_bloc: ^8.0.1
+  flutter_svg: ^1.0.3
+  google_fonts: ^3.0.1
+  intl: ^0.17.0
+  lottie: ^1.4.1
+  modal_bottom_sheet: ^2.0.1
+  shimmer: ^2.0.0
+  cloud_firestore_web: ^2.6.16
+  google_sign_in: ^5.3.3
+  toasty_snackbar: ^0.0.1
+  cupertino_stepper: ^0.2.1
+  cron: ^0.5.0
+
+  # flutter sdk
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
